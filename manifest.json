@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "YouTubeDLButton",
+  "short_name": "YouTubeDLButton",
+  "description": "",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "page_action": {
+    "default_icon": "assets/DLButton1.jpeg",
+    "default_title":"Download this video"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "activeTab", "declarativeContent", "nativeMessaging"
+  ]
+}
